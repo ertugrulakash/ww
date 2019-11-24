@@ -1,7 +1,6 @@
 {
-  "ignore": ["pop.js", "app.js"] ,
+  "ignore": ["pop.js", "nodemon.js", "package.json", "watch.json", ".env"] ,
    "events": {
-       "restart": "node pop.js",
-       "exit": "node pop.js"
+       "restart": "node pop.js"
     }
 }
