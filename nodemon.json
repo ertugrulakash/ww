@@ -1,5 +1,7 @@
 {
- "events": {
-     "restart": "node pop.js"
-   }
+  "ignore": ["pop.js", "app.js"] ,
+   "events": {
+       "restart": "node pop.js",
+       "exit": "node pop.js"
+    }
 }
